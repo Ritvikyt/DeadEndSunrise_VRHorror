@@ -1,0 +1,14 @@
+# DeadEnd Sunrise - VR Horror Game
+
+This is a placeholder for the actual game build.
+
+To add your Unity build:
+1. Build your Unity project for Windows/Mac/Android
+2. Zip the build folder
+3. Replace this file with your actual game zip file
+4. Name it: DeadEndSunrise_Windows.zip or similar
+
+Developers:
+- Swapnil
+- Ritvik  
+- Hitesh

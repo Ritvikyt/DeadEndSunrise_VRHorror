@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeadEnd Sunrise - VR Horror Experience</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=Nosifer&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated particles background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Scanline overlay for VHS horror effect -->
+    <div class="scanlines"></div>
+
+    <!-- Vignette effect -->
+    <div class="vignette"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="skull-logo">☠</div>
+            <h1 class="title glitch" data-text="DEADEND SUNRISE">DEADEND SUNRISE</h1>
+        </div>
+        <nav class="nav">
+            <a href="#home" class="nav-link">HOME</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="vr-headset-animation">
+                <div class="headset">🎮</div>
+                <div class="pulse-ring"></div>
+                <div class="pulse-ring delay-1"></div>
+                <div class="pulse-ring delay-2"></div>
+            </div>
+            <h2 class="hero-title">ENTER THE NIGHTMARE</h2>
+            <p class="hero-subtitle">A VR horror experience that will haunt your reality</p>
+            <p class="hero-description">
+                Lost in a cursed village. Hunted by unspeakable evil.
+                Your only hope is to find the scattered car parts and escape before dawn...
+            </p>
+            <a href="downloads/DeadEndSunrise_Game.txt" download="DeadEndSunrise_VRHorror.zip" class="download-btn">
+                <span class="btn-icon">⚠️</span>
+                <span class="btn-text">DOWNLOAD NOW</span>
+                <span class="btn-glitch">DOWNLOAD NOW</span>
+            </a>
+        </div>
+
+        <div class="hero-visual">
+            <div class="vr-scene">
+                <div class="floating-eye">👁️</div>
+                <div class="ghost">👻</div>
+                <div class="blood-drip"></div>
+                <div class="blood-drip delay-1"></div>
+                <div class="blood-drip delay-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <div class="feature-icon rotate-icon">🌙</div>
+            <h3>SURVIVE THE NIGHT</h3>
+            <p>Navigate through darkness, solve cryptic puzzles, and evade the horrors stalking you</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon pulse-icon">👁️</div>
+            <h3>IMMERSIVE VR</h3>
+            <p>Full VR support for Meta Quest, HTC Vive, Valve Index. Feel the terror in 360°</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon shake-icon">💀</div>
+            <h3>ESCAPE OR DIE</h3>
+            <p>Find the parts, repair the car, and flee before you become another victim</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <h2 class="section-title glitch" data-text="THE CREATORS">THE CREATORS</h2>
+        <div class="developers">
+            <div class="dev-card">
+                <div class="dev-avatar">
+                    <div class="avatar-inner">S</div>
+                    <div class="avatar-glow"></div>
+                </div>
+                <h3 class="dev-name">SWAPNIL</h3>
+                <p class="dev-role">UI/UX & Asset Developer</p>
+                <p class="dev-bio">Designed the interface and managed all game assets. Coded the core functionality for
+                    asset integration.</p>
+            </div>
+
+            <div class="dev-card">
+                <div class="dev-avatar">
+                    <div class="avatar-inner">H</div>
+                    <div class="avatar-glow"></div>
+                </div>
+                <h3 class="dev-name">HITESH</h3>
+                <p class="dev-role">Animation Specialist</p>
+                <p class="dev-bio">Brought nightmares to life. Created all character animations and environmental
+                    movements.</p>
+            </div>
+
+            <div class="dev-card">
+                <div class="dev-avatar">
+                    <div class="avatar-inner">R</div>
+                    <div class="avatar-glow"></div>
+                </div>
+                <h3 class="dev-name">RITVIK</h3>
+                <p class="dev-role">Unity Developer & Build Manager</p>
+                <p class="dev-bio">Deployed all assets to Unity engine. Built and optimized the final game experience.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- System Requirements -->
+    <section class="requirements">
+        <h2 class="section-title">SYSTEM REQUIREMENTS</h2>
+        <div class="req-grid">
+            <div class="req-item">
+                <span class="req-label">OS:</span>
+                <span class="req-value">Windows 10+ / macOS 10.15+</span>
+            </div>
+            <div class="req-item">
+                <span class="req-label">VR:</span>
+                <span class="req-value">Meta Quest, HTC Vive, Valve Index</span>
+            </div>
+            <div class="req-item">
+                <span class="req-label">RAM:</span>
+                <span class="req-value">8GB Minimum, 16GB Recommended</span>
+            </div>
+            <div class="req-item">
+                <span class="req-label">GPU:</span>
+                <span class="req-value">GTX 1060 / RX 580 or better</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 DeadEnd Sunrise. All nightmares reserved.</p>
+        <p>
+            <a href="https://github.com/Ritvikyt/DeadEndSunrise_VRHorror" target="_blank" class="footer-link">
+                View on GitHub ↗
+            </a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
